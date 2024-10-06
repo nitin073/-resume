@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rebeccapurple;
+            height: 100vh;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        .main{
+
+                /* display: flex; */
+                /* flex-wrap: wrap; */
+                /* grid-gap:50px ; */
+                /* justify-content: space-around; */
+                display: grid;
+                grid-template-columns: 550px 550px ;
+                justify-content: space-evenly;
+        }
+        img{
+            border-radius: 20px;
+        }
+        img:hover{
+            transition: 0.4s;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            cursor: pointer;
+        }
+        .card-1{
+            height: 300px;
+            width: 500px;
+            margin: 40px;
+            /* border: 2px solid red; */
+        }
+        #button{
+            position: relative;
+            bottom: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+        }
+        button{
+            margin: 4px 10px;
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: transparent;
+            color: white;
+            transition: 1s;
+            border: none;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+
+
+        <div class="card-1">
+            <img src="./ss.png" alt="" height="300px" width="500px">
+            <div id="button">
+                <a href="https://nitin073.github.io/Netflix/" target="_blank">
+                <button>Live View</button>
+                </a>
+                <a href="https://github.com/nitin073/Netflix"> <button>Source code</button> </a>
+                
+                </div>
+        </div>        
+        <div class="card-1">
+            <img src="./ss2.png" alt="" height="300px" width="500px">
+            <div id="button">
+                <a href="https://nitin073.github.io/PasswordGenerator-1/" target="_blank">
+                <button>Live View</button>
+                </a>
+               <a href="https://github.com/nitin073/PasswordGenerator-1">   <button>Source code</button></a>
+                
+                </div>
+        </div>        
+        <div class="card-1">
+            <img src="./ss3.png" alt="" height="300px" width="500px">
+            <div id="button">
+                <a href="#" target="_blank">
+                <button>Live View</button>
+                </a>
+               <a href="#">  <button>Source code</button> </a>
+                
+                </div>
+        </div>        
+        <div class="card-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7fDXC4EwpCFyz1scn-6gPq0EE0daxLcHEA&s" alt="" height="300px" width="500px">
+            <div id="button">
+                <a href="https://nitin073.github.io/Netflix/" target="_blank">
+                <button>Live View</button>
+                </a>
+                 <button>Source code</button>
+                
+                </div>
+        </div>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
